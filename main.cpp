@@ -14,8 +14,9 @@ int main(){
             << phrase << endl;
 
         getline(cin,input);
-
+        int accuracy = phrase.size()/43;
         //TODO: Show results here
+        cout<< "Results: "<< accuracy << "% accurate\n";
 
         do{
             cout << "Try again? (yes/no)\n";
