@@ -10,12 +10,17 @@ int main(){
     string input;
 
     do{
-        cout << "Type the following phrase and then press return:\n" 
+        cout << "Type the following phrase and then press return:\n"
             << phrase << endl;
 
         getline(cin,input);
 
         //TODO: Show results here
+        if(input == phrase){
+          cout << "The phrase matches perfectly!" << endl;
+        } else {
+          cout << "The phrases do not match" << endl;
+        }
 
         do{
             cout << "Try again? (yes/no)\n";
