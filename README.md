@@ -1,3 +1,4 @@
+[![C/C++ CI](https://github.com/DevangRaval1/tippitytappity/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/DevangRaval1/tippitytappity/actions/workflows/c-cpp.yml)
 # tippitytappity
 
 tippitytappity is a program to practice typing
