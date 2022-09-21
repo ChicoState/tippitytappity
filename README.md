@@ -1,5 +1,7 @@
 # tippitytappity
 
+[![C++ CI](https://github.com/KadynCBR/tippitytappity/actions/workflows/actions.yml/badge.svg)](https://github.com/KadynCBR/tippitytappity/actions/workflows/actions.yml)
+
 tippitytappity is a program to practice typing
 
 ## Getting Started
