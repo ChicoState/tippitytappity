@@ -8,6 +8,8 @@ using std::string;
 int main(){
     const string phrase = "The quick brown fox jumps over the lazy dog";
     string input;
+    int correct;
+    
 
     do{
         cout << "Type the following phrase and then press return:\n" 
@@ -16,6 +18,14 @@ int main(){
         getline(cin,input);
 
         //TODO: Show results here
+        for(int i = 0; i < input.size(); i++){
+            if(input[i] == phrase[i]){
+                correct++;
+            }
+        }
+        cout << "Results: " <<correct << endl;
+        
+        
 
         do{
             cout << "Try again? (yes/no)\n";
