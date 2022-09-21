@@ -26,7 +26,7 @@ int main(){
                 cout << 43/compare*100;
             }
             else {
-                cout << (43/compare*100) - (|2* (phrase.length() - input.length()|)); //subtract 2 points for every extra or missing character
+                cout << (43/compare*100); //- (|2* (phrase.length() - input.length()|)) //subtract 2 points for every extra or missing character
             }
         }
 
