@@ -14,3 +14,7 @@ Compile the code with the following command:
 And then run it:
 
 `./tippitytappity`
+
+# tippitytappity
+
+[![CI](https://github.com/PaulTheRobert/tippitytappity/actions/workflows/main.yml/badge.svg)](https://github.com/PaulTheRobert/tippitytappity/actions/workflows/main.yml)
