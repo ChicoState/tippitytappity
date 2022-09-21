@@ -16,6 +16,26 @@ int main(){
         getline(cin,input);
 
         //TODO: Show results here
+        int score = (phrase.size() - input.size())*-2;
+
+        
+        for(int i = 0; i < phrase.size(); i++){
+            if (!input[i]) {
+                break;
+            }
+            if (phrase[i] == input[i]){
+                score++;
+            } else {
+                score--;
+            }
+        }
+
+        cout<<score<<endl;
+        cout<<phrase.size()<<endl;
+
+        double result = (score / phrase.size());
+
+        cout << "Results: "<<result<<"% Accurate"<<endl;
 
         do{
             cout << "Try again? (yes/no)\n";
