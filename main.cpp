@@ -17,6 +17,13 @@ int main(){
 
         //TODO: Show results here
 
+        //I CANT FINISH THE CODING PORTION BECAUSE MY VM BROKE MID WAY
+        //THROUGH THE EXAM!!!
+        //IT ALSO MEANS I CAN'T COMPILE IT AS WELL
+        
+        int results = input.length()/phrase.length()*100.0
+        printf("Results: %d accurate", results)
+
         do{
             cout << "Try again? (yes/no)\n";
             getline(cin,input);
