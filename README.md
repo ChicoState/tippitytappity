@@ -1,4 +1,4 @@
-# tippitytappity
+# tippitytappity [![C++ CI](https://github.com/Yeekster/tippitytappity/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/Yeekster/tippitytappity/actions/workflows/main.yml)
 
 tippitytappity is a program to practice typing
 
@@ -15,4 +15,3 @@ And then run it:
 
 `./tippitytappity`
 
-[![C++ CI](https://github.com/Yeekster/tippitytappity/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/Yeekster/tippitytappity/actions/workflows/main.yml)
