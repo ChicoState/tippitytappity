@@ -7,6 +7,7 @@ using std::string;
 
 int main(){
     const string phrase = "The quick brown fox jumps over the lazy dog";
+    int phraselen = phrase.length();
     string input;
 
     do{
@@ -16,6 +17,14 @@ int main(){
         getline(cin,input);
 
         //TODO: Show results here
+        int total = 0;
+        for(auto i=0; i<phraselen; i++){
+            if(input[i] == phrase[i]){
+                total++;
+            }
+        }
+
+        cout << "Results: " << (100*total)/phraselen <<"\% accurate\n";
 
         do{
             cout << "Try again? (yes/no)\n";
