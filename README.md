@@ -14,3 +14,5 @@ Compile the code with the following command:
 And then run it:
 
 `./tippitytappity`
+
+![workflow](https://github.com/NotEnoughCharact/tippitytappity/actions/workflows/main.yml/badge.svg)
