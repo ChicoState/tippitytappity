@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <string>
 using std::cin;
 using std::cout;
 using std::endl;
@@ -14,7 +14,7 @@ int main(){
             << phrase << endl;
 
         getline(cin,input);
-
+        
         //TODO: Show results here
 
         do{
