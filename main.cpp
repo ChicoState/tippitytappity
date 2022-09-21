@@ -16,8 +16,15 @@ int main(){
         getline(cin,input);
 
         //TODO: Show results here
+	
+	if(phrase == input) {
+		cout << "Correct!\n";
+	} else {
+		cout << "That wasn't the same phrase!\n";
+	}
+	
 
-        cout << input << endl; 
+        cout << "You typed: " << input << endl; 
 
         do{
             cout << "Try again? (yes/no)\n";
