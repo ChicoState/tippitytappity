@@ -1,4 +1,4 @@
-# tippitytappity
+# tippitytappity [![Quiz 01](https://github.com/ksdhillon1/tippitytappity/actions/workflows/action.yml/badge.svg)](https://github.com/ksdhillon1/tippitytappity/actions/workflows/action.yml)
 
 tippitytappity is a program to practice typing
 
