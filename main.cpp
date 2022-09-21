@@ -16,6 +16,15 @@ int main(){
         getline(cin,input);
 
         //TODO: Show results here
+         int counter = 0;
+        for(int i=0; i<(int)input.length();i++){
+                        if (phrase[i] != input[i]){
+                                counter++;
+                        }
+                }
+
+        int result = ((44-counter)/44) * 100;
+        cout << "Results: " << result << "% accurate" << endl;
 
         do{
             cout << "Try again? (yes/no)\n";
