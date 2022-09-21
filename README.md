@@ -1,3 +1,5 @@
+[![C++ CI](https://github.com/fenceturtle/tippitytappity/actions/workflows/actions.yml/badge.svg)](https://github.com/fenceturtle/tippitytappity/actions/workflows/actions.yml)
+
 # tippitytappity
 
 tippitytappity is a program to practice typing
