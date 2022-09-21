@@ -15,7 +15,17 @@ int main(){
 
         getline(cin,input);
 
-        //TODO: Show results here
+        int score = 0;
+        int offset = (phrase.length() - input.length()) * 2;
+        if (offset > 0)
+            offset = -offset;
+        for (int i = 0; i < input.length(); i++) {
+            if (input[i] == phrase[i])
+                score++;
+        }
+        
+        int final_score = score/phrase.length() + offset;
+        cout << "Results :" << final_score << "% accurate" << endl;
 
         do{
             cout << "Try again? (yes/no)\n";
