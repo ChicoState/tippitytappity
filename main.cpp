@@ -18,6 +18,7 @@ int main(){
         getline(cin,input);
 
         //TODO: Show results here
+        //code
         if(phrase.compare(input) == 0){
             cout << "100%" << endl;
         }
