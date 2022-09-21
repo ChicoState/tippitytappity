@@ -9,7 +9,7 @@ int SIZE = 43;
 int main(){
 	const string phrase = "The quick brown fox jumps over the lazy dog";
 	string input;
-	string count = 43;
+	int count = 43;
 	int score = 100;
 	do{
 		cout << "Type the following phrase and then press return:\n" 
