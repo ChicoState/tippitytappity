@@ -1,3 +1,5 @@
+[![TippityTappity](https://github.com/aryan-99/tippitytappity/actions/workflows/actions.yml/badge.svg)](https://github.com/aryan-99/tippitytappity/actions/workflows/actions.yml)
+
 # tippitytappity
 
 tippitytappity is a program to practice typing
