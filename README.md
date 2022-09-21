@@ -14,3 +14,6 @@ Compile the code with the following command:
 And then run it:
 
 `./tippitytappity`
+
+
+[![C/C++ CI](https://github.com/wtlyons54/tippitytappity/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/wtlyons54/tippitytappity/actions/workflows/c-cpp.yml)
