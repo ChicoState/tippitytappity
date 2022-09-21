@@ -16,6 +16,15 @@ int main(){
         getline(cin,input);
 
         //TODO: Show results here
+	int correct=0;
+	for(int i=0; i<input.size(); i++){
+		for(int k=0; k<phrase.size(); k++){
+			if(input[i]==phrase[k]){
+				correct++;
+		}
+	}
+	int grade = (correct/44)*100;
+	cout << grade << endl;
 
         do{
             cout << "Try again? (yes/no)\n";
