@@ -11,6 +11,7 @@ int main(){
     string input;
     std::chrono::steady_clock::time_point started; 
     std::chrono::steady_clock::time_point stopped;
+    float score = 0; 
     long milliseconds = 0;
 
     do{
@@ -23,6 +24,17 @@ int main(){
         
         //TODO: Show results here
         cout << "You took " << milliseconds / 1000.0 << " seconds" << endl;
+        
+        for (int i = 0; i < input.size(); i++) 
+        {
+            if (input[i] == phrase[i])
+            {   
+                score++; //If the input matches the phrase at i index then they get a point
+            }
+        }
+
+        cout << input.size(); 
+        cout << "Results: " << (int)((score/44) * 100) << "%" <<  " accurate" << endl; 
 
         do{
             cout << "Try again? (yes/no)\n";
