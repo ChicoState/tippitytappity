@@ -21,8 +21,8 @@ int main(){
         //THROUGH THE EXAM!!!
         //IT ALSO MEANS I CAN'T COMPILE IT AS WELL
         
-        int results = input.length()/phrase.length()*100.0
-        printf("Results: %d accurate", results)
+        int results = input.length()/phrase.length()*100.0;
+        printf("Results: %d accurate", results);
 
         do{
             cout << "Try again? (yes/no)\n";
