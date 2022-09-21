@@ -16,17 +16,16 @@ int main(){
         getline(cin,input);
 
         //TODO: Show results here
-        
+        int compare = 43; //hard coded, should be the comparison of characters but don't know how
         if (phrase == input){
             cout << "100%";
         }
         else{
             if (phrase.length() == input.length()) {
-                int compare = 43;
                 cout << 43/compare*100;
             }
             else {
-                cout << (43/compare*100); //- (|2* (phrase.length() - input.length()|)) //subtract 2 points for every extra or missing character
+                cout << (43/compare*100) - (|2* (phrase.length() - input.length()|)); //subtract 2 points for every extra or missing character
             }
         }
 
