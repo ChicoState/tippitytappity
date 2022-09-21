@@ -16,6 +16,19 @@ int main(){
         getline(cin,input);
 
         //TODO: Show results here
+        
+        int correct_counter = phrase.length();
+
+        for (int i = 0; i < phrase.length(); i++){
+            if (phrase[i] != input[i]){
+                correct_counter--;
+            }
+        }
+        int diff = abs(phrase.length() - input.length());
+        correct_counter = correct_counter - diff*2;
+        int percent = correct_counter*100 / phrase.length();
+        cout << "Results: " << percent << "%" <<  " accurate" << endl;
+
 
         do{
             cout << "Try again? (yes/no)\n";
