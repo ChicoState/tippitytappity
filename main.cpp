@@ -23,6 +23,24 @@ int main(){
         
         //TODO: Show results here
         cout << "You took " << milliseconds / 1000.0 << " seconds" << endl;
+	
+	int size;
+	if (phrase.length() > input.length()){
+		size = input.length();
+	} else {
+		size = phrase.length();
+	}
+
+	bool wrongLetter = true;
+	for (int i = 0; i < size; i++){
+		if (phrase.at(i) != input.at(i)){
+			wrongLetter = false;
+			cout << input.at(i) << " typed instead of " << phrase.at(i) << endl;
+	}
+
+	if (wrongLetter == true){
+		cout << "You got the entire phrase correct!" << endl;
+	}
 
         do{
             cout << "Try again? (yes/no)\n";
