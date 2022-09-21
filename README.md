@@ -17,4 +17,4 @@ And then run it:
 
 # tippitytappity
 
-[![CI](https://github.com/PaulTheRobert/tippitytappity/actions/workflows/main.yml/badge.svg)](https://github.com/PaulTheRobert/tippitytappity/actions/workflows/quiz1.yml)
+[![CI](https://github.com/PaulTheRobert/tippitytappity/actions/workflows/quiz1.yml/badge.svg)](https://github.com/PaulTheRobert/tippitytappity/actions/workflows/quiz1.yml)
