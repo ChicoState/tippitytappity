@@ -1,4 +1,5 @@
 # tippitytappity
+![badge](http://github.com/serinagg/tippitytappity/actions/workflows/main.yml/badge.svg)
 
 tippitytappity is a program to practice typing
 

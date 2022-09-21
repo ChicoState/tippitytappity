@@ -20,4 +20,4 @@ jobs:
                         - uses: actions/checkout@v2
                         - name: build project
                           run: |
-                                  g++ main.cpp -std=c++17 -o tiptap
+                                  g++ main.cpp -std=c++17 -o tippitytappity
