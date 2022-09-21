@@ -17,6 +17,12 @@ int main(){
 
         //TODO: Show results here
 	cout << "What you typed: " << input << endl;
+	cout << "What you were supposed to typed: " << phrase << endl;
+	if(phrase == input){
+		cout << "You win!\n";
+	}else{
+		cout << "You lose ;(\n";
+	}
 
         do{
             cout << "Try again? (yes/no)\n";
