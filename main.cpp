@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cstring>
 
 using std::cin;
 using std::cout;
@@ -17,16 +16,17 @@ int main(){
         getline(cin,input);
 
         //TODO: Show results here
-        int compare = strcmp(phrase,input);
-        if (compare == 0){
+        
+        if (phrase == input){
             cout << "100%";
         }
         else{
             if (phrase.length() == input.length()) {
-                cout << compare/44*100;
+                int compare = 43;
+                cout << 43/compare*100;
             }
             else {
-                cout << (compare/44*100) - (2* (phrase.length() - input.length())); //subtract 2 points for every extra or missing character
+                cout << (43/compare*100) - (|2* (phrase.length() - input.length()|)); //subtract 2 points for every extra or missing character
             }
         }
 
