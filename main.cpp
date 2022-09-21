@@ -15,7 +15,8 @@ int main(){
 
         getline(cin,input);
 
-        //TODO: Show results here
+        //TODO:
+	cout << input << endl;
 
         do{
             cout << "Try again? (yes/no)\n";
