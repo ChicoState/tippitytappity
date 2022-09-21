@@ -15,4 +15,6 @@ And then run it:
 
 `./tippitytappity`
 
-[![C++ CI] (https://github.com/andreshapir9/tippitytappity/actions/workflows/main.yml/badge.svg)(https://github.com/andreshapir9/tippitytappity/actions/workflows/main.yml)
+[![C++ CI] (https://github.com/andreshapir9/tippitytappity/actions/workflows/main.yml/badge.svg)]
+
+(https://github.com/andreshapir9/tippitytappity/actions/workflows/main.yml)
