@@ -19,9 +19,15 @@ int main(){
         int offset = (phrase.length() - input.length()) * 2;
         if (offset > 0)
             offset = -offset;
-        for (int i = 0; i < input.length(); i++) {
-            if (input[i] == phrase[i])
-                score++;
+        if (input.length() < phrase.length()) {
+            for (int i = 0; i < input.length(); i++) {
+                if (input[i] == phrase[i])
+                    score++;
+            }
+        } else {
+            for (int i = 0; i < phrase.length(); i++) {
+                if (input[i] == phrase[i])
+                    score++;
         }
         
         int final_score = score/phrase.length() + offset;
