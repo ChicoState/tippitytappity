@@ -17,7 +17,7 @@ int main(){
 
         //TODO: Show results here
 
-        cout << input << endl;
+        cout << input << endl; 
 
         do{
             cout << "Try again? (yes/no)\n";
